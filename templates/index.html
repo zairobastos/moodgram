@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="{{url_for('static', filename='style.css')}}"
+		/>
+		<title>MOOD GRAM</title>
+	</head>
+	<body class="bg-[#F4EAE4]">
+		<header class="pr-16 flex justify-between items-center">
+			<figure class="logo pl-16">
+				<img
+					src="../static/img/Logo.svg"
+					alt="Logo MOOD GRAM"
+					class="w-9"
+				/>
+				<h1 class="text-2xl text-[#756B65]">
+					MOOD<span class="text-lg">GRAM</span>
+				</h1>
+			</figure>
+			<a
+				href=""
+				target="_blank"
+				rel="noopener noreferrer"
+				class="px-6 border py-3.5 rounded-md border-[#756B65] text-lg text-[#756B65]"
+				>Sobre o MOOD</a
+			>
+		</header>
+		<main class="flex flex-row justify-between px-16">
+			<div class="flex flex-col flex-wrap w-2/5">
+				<figure class="flex items-end">
+					<img src="../static/img/Group 5.svg" alt="MOOD" />
+					<h2 class="text-[#756B65] font-bold text-5xl">GRAM</h2>
+				</figure>
+				<div class="flex flex-col flex-wrap gap-9 text-[#756B65]">
+					<p class="text-base">
+						Descubra o humor por trás das palavras.
+					</p>
+					<p>
+						Com o MOODGRAM, você consegue analisar e revelar o tom
+						emocional do seu texto, trazendo à tona o verdadeiro
+						sentimento por trás das palavras!
+					</p>
+					<a
+						href=""
+						target="_blank"
+						rel="noopener noreferrer"
+						class="px-6 py-3.5 rounded-md text-lg text-white w-[13rem] text-center bg-[#93DCAF] shadow-md"
+						>Envie o seu texto</a
+					>
+				</div>
+			</div>
+			<figure>
+				<img
+					src="../static/img/mention-monochromatic 1.svg"
+					alt="imagem"
+				/>
+			</figure>
+		</main>
+		<footer class="bottom-0 absolute right-0">
+			<img src="../static/img/footer.svg" alt="" />
+		</footer>
+	</body>
+</html>
