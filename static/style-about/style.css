@@ -1,0 +1,15 @@
+body {
+	font-family: "Averia Serif Libre", serif;
+}
+
+.logo {
+	background-image: url("../img/sobre/Vector.svg");
+	background-repeat: no-repeat;
+	height: 232px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.5rem;
+	width: 50%;
+}
