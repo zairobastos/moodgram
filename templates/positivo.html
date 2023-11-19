@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="{{url_for('static', filename='style-positivo/style.css')}}"
+		/>
+		<link
+			rel="shortcut icon"
+			href="{{ url_for('static', filename='img/favicon/favicon.ico') }}"
+		/>
+		<script src="https://unpkg.com/@phosphor-icons/web"></script>
+		<title>MOOD GRAM - About</title>
+	</head>
+	<body class="bg-[#93DCAF]">
+		<header class="flex justify-between">
+			<figure class="logo"></figure>
+			<img src="../static/img/sobre/Group 7.svg" alt="uns efeitos ai" />
+		</header>
+		<main
+			class="flex flex-row absolute z-10 justify-between mx-[20%] w-3/5 mt-[-100px]"
+		>
+			<div class="flex flex-col flex-wrap items-center gap-9">
+				<figure class="flex flex-col w-max items-end">
+					<img src="../static/img/Group 5 (3).svg" alt="MOOD" />
+					<p class="text-[#4B403BBF]">
+						Seu texto foi classificado como:
+					</p>
+				</figure>
+				<div
+					class="flex flex-col justify-center items-center flex-wrap gap-8 text-[#4B403B]"
+				>
+					<header
+						class="flex flex-row w-full gap-2 justify-center items-center"
+					>
+						<img src="../static/img/positivo/_).svg" alt="" />
+						<h1 class="text-6xl text-[#F4EAE4] font-bold">
+							POSITIVO
+						</h1>
+					</header>
+					<p
+						class="text-base leading-6 text-center tracking-[.06756rem] text-[#4B403B]"
+					>
+						Isso significa que o tom das palavras, frases ou
+						contexto transmite uma sensação de otimismo, felicidade,
+						alegria ou bom humor. Isso pode ser percebido através de
+						palavras escolhidas de forma positiva, piadas, histórias
+						engraçadas ou um tom geral que transmite uma atitude
+						alegre e agradável.
+					</p>
+					<a
+						href="/"
+						class="text-lg font-bold rounded-md border border-[#333] w-max py-2 px-4 flex items-center justify-center text-center"
+						>Envie outro texto
+						<i class="ph ph-paper-plane-right"></i
+					></a>
+				</div>
+			</div>
+		</main>
+		<footer
+			class="bottom-0 absolute flex flex-row items-end justify-between w-full right-0 z-0"
+		>
+			<img src="../static/img/positivo/Group 6 (1).svg" alt="" />
+			<img src="../static/img/footer.svg" alt="" />
+		</footer>
+	</body>
+</html>

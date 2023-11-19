@@ -18,5 +18,10 @@ def submit():
     return render_template("submit.html")
 
 
+@app.route('/positivo')
+def positivo():
+    return render_template("positivo.html")
+
+
 if __name__ == '__main__':
     app.run(debug=True)
