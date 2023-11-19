@@ -23,5 +23,10 @@ def positivo():
     return render_template("positivo.html")
 
 
+@app.route('/neutro')
+def neutro():
+    return render_template("neutro.html")
+
+
 if __name__ == '__main__':
     app.run(debug=True)
