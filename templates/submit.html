@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="{{url_for('static', filename='style-submit/style.css')}}"
+		/>
+		<link
+			rel="shortcut icon"
+			href="{{ url_for('static', filename='img/favicon/favicon.ico') }}"
+		/>
+		<script src="https://unpkg.com/@phosphor-icons/web"></script>
+		<title>MOOD GRAM - Submit</title>
+	</head>
+	<body class="bg-[#F4EAE4]">
+		<header class="pl-16 flex justify-between items-center">
+			<a
+				href="/"
+				class="text-lg text-[#756B65] flex items-center justify-center text-center"
+				><i class="ph ph-caret-left"></i> Voltar</a
+			>
+			<figure class="logo">
+				<img
+					src="../static/img/Logo.svg"
+					alt="Logo MOOD GRAM"
+					class="w-9"
+				/>
+				<h1 class="text-2xl text-[#756B65]">
+					MOOD<span class="text-lg">GRAM</span>
+				</h1>
+			</figure>
+		</header>
+		<main
+			class="flex flex-col absolute z-10 justify-center mx-[20%] w-3/5 mt-[-100px]"
+		>
+			<div class="flex flex-col flex-wrap items-center gap-9">
+				<figure class="flex items-end w-max">
+					<img
+						src="../static/img/submit/Group 5 (2).svg"
+						alt="MOOD"
+					/>
+				</figure>
+			</div>
+			<form action="" class="flex flex-col gap-4">
+				<textarea
+					name=""
+					id=""
+					placeholder="Digite seu texto"
+					style="resize: none"
+					class="w-[100%] bg-[#D9D9D9] h-36 border border-[#333] focus:shadow hover:shadow text-[#4B403B] rounded-md py-3 px-4 placeholder:text-[#4B403B]"
+				></textarea>
+				<button
+					type="submit"
+					class="flex gap-2 items-center justify-center rounded-md uppercase text-2xl font-bold hover:shadow w-full bg-[#93DCAF] py-3"
+				>
+					MOOD ME <i class="ph ph-paper-plane-right"></i>
+				</button>
+			</form>
+		</main>
+		<footer
+			class="bottom-0 absolute flex justify-between w-full right-0 z-0"
+		>
+			<img src="../static/img/submit/Group 6.svg" alt="" />
+			<img
+				src="../static/img/submit/smiley-face-monochromatic 1 (1).svg"
+				alt=""
+			/>
+		</footer>
+	</body>
+</html>
