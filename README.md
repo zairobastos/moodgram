@@ -10,6 +10,9 @@
 ![Série](https://img.shields.io/badge/MoodGram-ModuloIbiapaba-green)
 [![licence mit](https://img.shields.io/badge/licence-MIT-orange.svg)]()
 
+### ~ Descrição da Temática ~
+Análise de sentimentos é o processo de analisar um texto digital para determinar se o tom emocional da mensagem é positivo, negativo ou neutro. Atualmente, as empresas têm grandes volumes de dados textuais, como e-mails, transcrições de chat de atendimento ao cliente, comentários em mídias sociais e avaliações. As ferramentas de análise de sentimentos podem escanear esse texto para determinar automaticamente a atitude do autor em relação a um tópico. As empresas usam os insights da análise de sentimentos para melhorar o atendimento ao cliente e aumentar a reputação da marca
+
 ### ~ Documentos do Projeto ~
 - <a href='https://docs.google.com/document/d/1LI6jfGMlymhFoK1WtWdxZxKeLMyWLadLTjbGLXle3NY/edit?usp=sharing'>Documento de Especificação do Projeto
 
