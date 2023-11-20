@@ -16,7 +16,7 @@ Análise de sentimentos é o processo de analisar um texto digital para determin
 Dito isso, o objetivo central consiste em desenvolver classificador de sentimentos de notícias eficiente, preciso e escalável. O modelo criado pelos times deve ser capaz de analisar o texto de uma notícia e determinar se o sentimento geral associado a ela é positivo, negativo ou neutro. A partir dessa classificação, uma empresa do segmento financeiro poderá tomar decisões informadas e estratégicas com base em dados confiáveis sobre a percepção pública de notícias relevantes.
 
 <p align="center">
-<img src=".github/cover.png" alt="LOGO" width="200"/>
+<img src=".github/cover.png" alt="LOGO" width="1000"/>
 </p>
 
 ### ~ Documentos do Projeto ~
