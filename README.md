@@ -1,8 +1,8 @@
 <p align="center">
-<img src=".github/logotype.png" alt="LOGO" width="100"/>
+<img src=".github/logotype.png" alt="LOGO" width="200"/>
 </p>
 
-# 🍃 MOODGram - Descubra o humor por trás das palavras 🍃
+# MOODGram - Descubra o humor por trás das palavras
 
 #### 🚧 Em construção...  🚧
 
