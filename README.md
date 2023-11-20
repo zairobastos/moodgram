@@ -7,7 +7,7 @@
 
 #### 🚧 Em construção...  🚧
 
-![Série](https://img.shields.io/badge/Trafega-Projeto%20Integrador-yellow)
+![Série](https://img.shields.io/badge/MoodGram-ModuloIbiapaba-green)
 [![licence mit](https://img.shields.io/badge/licence-MIT-orange.svg)]()
 
 ### ~ Documentos do Projeto ~
