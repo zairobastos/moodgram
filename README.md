@@ -36,6 +36,6 @@ Dito isso, o objetivo central consiste em desenvolver classificador de sentiment
     <td align="center"><a href="https://github.com/gabrielrudan"><img src=".github/gabrielrudan.png" width="100px;" alt=""/><br /><sub><b>Gabriel Rudan</b></sub></a><br /><p title="Front-End">💻</p></td>
 	<td align="center"><a href="https://github.com/Raylander524"><img src=".github/raylandermarques.png" width="100px;" alt=""/><br /><sub><b>Raylander Marques</b></sub></a><br /><p title="Front-End">💻</p></td>
     <td align="center"><a href="https://github.com/leh-torres"><img src=".github/leticiatorres.jpg" width="100px;" alt=""/><br /><sub><b>Letica Torres</b></sub></a><br /><p title="Back-End">💻</p></td>
-    <td align="center"><a href="https://github.com/Raylander524"><img src=".github/zairobastos.jpg" width="100px;" alt=""/><br /><sub><b>Zairo Bastos</b></sub></a><br /><p title="Back-End">💻</p></td>
+    <td align="center"><a href="https://github.com/zairobastos"><img src="https://avatars.githubusercontent.com/u/49825773?v=4" width="100px;" alt=""/><br /><sub><b>Zairo Bastos</b></sub></a><br /><p title="Back-End">💻</p></td>
   </tr>
 </table>
