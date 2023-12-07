@@ -45,7 +45,7 @@ Dito isso, o objetivo central consiste em desenvolver classificador de sentiment
 * [X] [Tratamento dos Dados](https://github.com/zairobastos/moodgram/issues/1)
 * [ ] [Finalizar a API de conexão com a aplicação](https://github.com/zairobastos/moodgram/issues/16)
 * [ ] [Escrever o Pré-processamento dos Dados da Documentação](https://github.com/zairobastos/moodgram/issues/15)
-* [ ] [Escrever a Descrição dos Dados da Documentação](https://github.com/zairobastos/moodgram/issues/14)
+* [X] [Escrever a Descrição dos Dados da Documentação](https://github.com/zairobastos/moodgram/issues/14)
 * [ ] [Terceira Reunião - Teste Pré-Apresentação](https://github.com/zairobastos/moodgram/issues/12)
 * [ ] [Documentação no Repositório GitHub](https://github.com/zairobastos/moodgram/issues/8)
 * [ ] [Validação dos Resultados e Performance do Algoritmo](https://github.com/zairobastos/moodgram/issues/7)
