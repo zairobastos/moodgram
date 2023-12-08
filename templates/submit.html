@@ -50,10 +50,11 @@
 					/>
 				</figure>
 			</div>
-			<form action="" class="flex flex-col gap-4">
+			<form class="flex flex-col gap-4" id="form_text" action="/predict" >
 				<textarea
-					name=""
-					id=""
+					name="texto"
+					id="text"
+					type="text"
 					placeholder="Digite seu texto"
 					style="resize: none"
 					class="w-[100%] bg-[#D9D9D9] h-36 border border-[#333] focus:shadow hover:shadow text-[#4B403B] rounded-md py-3 px-4 placeholder:text-[#4B403B]"
@@ -61,10 +62,29 @@
 				<button
 					type="submit"
 					class="flex gap-2 items-center justify-center rounded-md uppercase text-2xl font-bold hover:shadow w-full bg-[#93DCAF] py-3"
+					id="button-send"
 				>
 					MOOD ME <i class="ph ph-paper-plane-right"></i>
 				</button>
 			</form>
+			<!-- <script>
+				const formText = document.getElementById('form_text')
+
+				formText.addEventListener('submit',evento => {
+					evento.preventDefault();
+
+					const formData = new FormData(formText);
+					const data = Object.fromEntries(formData);
+
+					fetch('http://127.0.0.1:5000/predict',{
+						method: 'POST',
+						headers: {
+							'Content-Type':'application/json'
+						},
+						body: JSON.stringify(data)
+					}).then(res=>res.url())
+				})
+			</script> -->
 		</main>
 		<footer
 			class="bottom-0 absolute flex justify-between w-full right-0 z-0"
