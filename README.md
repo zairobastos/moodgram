@@ -43,15 +43,15 @@ Dito isso, o objetivo central consiste em desenvolver classificador de sentiment
 * [X] [Análise Exploratória dos Dados](https://github.com/zairobastos/moodgram/issues/4)
 * [X] [Prototipagem das Telas da Aplicação WEB](https://github.com/zairobastos/moodgram/issues/3)
 * [X] [Tratamento dos Dados](https://github.com/zairobastos/moodgram/issues/1)
-* [ ] [Finalizar a API de conexão com a aplicação](https://github.com/zairobastos/moodgram/issues/16)
-* [ ] [Escrever o Pré-processamento dos Dados da Documentação](https://github.com/zairobastos/moodgram/issues/15)
+* [X] [Finalizar a API de conexão com a aplicação](https://github.com/zairobastos/moodgram/issues/16)
+* [X] [Escrever o Pré-processamento dos Dados da Documentação](https://github.com/zairobastos/moodgram/issues/15)
 * [X] [Escrever a Descrição dos Dados da Documentação](https://github.com/zairobastos/moodgram/issues/14)
 * [ ] [Terceira Reunião - Teste Pré-Apresentação](https://github.com/zairobastos/moodgram/issues/12)
-* [ ] [Documentação no Repositório GitHub](https://github.com/zairobastos/moodgram/issues/8)
-* [ ] [Validação dos Resultados e Performance do Algoritmo](https://github.com/zairobastos/moodgram/issues/7)
-* [ ] [Análise de Importância de Variáveis e Interpretabilidade](https://github.com/zairobastos/moodgram/issues/6)
-* [ ] [Seleção, Treinamento e Otimização de Algoritmo](https://github.com/zairobastos/moodgram/issues/5)
-* [ ] [Escrever a Introdução da Documentação](https://github.com/zairobastos/moodgram/issues/2)
+* [X] [Documentação no Repositório GitHub](https://github.com/zairobastos/moodgram/issues/8)
+* [X] [Validação dos Resultados e Performance do Algoritmo](https://github.com/zairobastos/moodgram/issues/7)
+* [X] [Análise de Importância de Variáveis e Interpretabilidade](https://github.com/zairobastos/moodgram/issues/6)
+* [X] [Seleção, Treinamento e Otimização de Algoritmo](https://github.com/zairobastos/moodgram/issues/5)
+* [X] [Escrever a Introdução da Documentação](https://github.com/zairobastos/moodgram/issues/2)
 
 ## 🛠 Tecnologias
 
@@ -64,8 +64,7 @@ Dito isso, o objetivo central consiste em desenvolver classificador de sentiment
 
 <table align="center">
 <tr>
-  <td align="center"><a href="https://github.com/eletromarlon"><img src=".github/franciscoantonio.png" width="100px;" alt=""/><br /><sub><b>Francisco Antônio</b></sub></a><br /><p title="Front-End">💻</p></td>
   <td align="center"><a href="https://github.com/gabrielrudan"><img src=".github/gabrielrudan.png" width="100px;" alt=""/><br /><sub><b>Gabriel Rudan</b></sub></a><br /><p title="Front-End">💻</p></td>
   <td align="center"><a href="https://github.com/Raylander524"><img src=".github/raylandermarques.png" width="100px;" alt=""/><br /><sub><b>Raylander Marques</b></sub></a><br /><p title="Front-End">💻</p></td>
-  <td align="center"><a href="https://github.com/leh-torres"><img src=".github/leticiatorres.jpg" width="100px;" alt=""/><br /><sub><b>Letica Torres</b></sub></a><br /><p title="Back-End">💻</p></td>
+  <td align="center"><a href="https://github.com/leh-torres"><img src=".github/leticiatorres.jpg" width="100px;" alt=""/><br /><sub><b>Letícia Torres</b></sub></a><br /><p title="Back-End">💻</p></td>
   <td align="center"><a href="https://github.com/zairobastos"><img src="https://avatars.githubusercontent.com/u/49825773?v=4" width="100px;" alt=""/><br /><sub><b>Zairo Bastos</b></sub></a><br /><p title="Back-End">💻</p></td>
