@@ -1,12 +1,13 @@
 from modelo import Modelo
 from sklearn import svm
-from flask import Flask, render_template, request, jsonify,redirect, url_for
+from flask import Flask, render_template, request, jsonify, redirect, url_for
 
 app = Flask(__name__)
 mod = None
 analise = None
 predic = None
 clf = svm.SVC(kernel='linear', gamma='scale')
+
 
 @app.route('/')
 def index():
@@ -23,19 +24,18 @@ def submit():
     return render_template("submit.html")
 
 
-
-@app.route('/predict', methods=['POST','GET'])
+@app.route('/predict', methods=['POST', 'GET'])
 def predict():
-  
-  dados = request.args.get('texto')
-  dado = [' '.join(mod.clean_text(str(dados)))]
-  previsao =int(predic.predict(mod.converte_string(dado)))
-  if(previsao == 0):
-      return redirect('/negativo')
-  elif(previsao == 1):
-      return redirect("/neutro")
-  elif(previsao == 2):
-      return redirect("/positivo")
+
+    dados = request.args.get('texto')
+    dado = [' '.join(mod.clean_text(str(dados)))]
+    previsao = int(predic.predict(mod.converte_string(dado)))
+    if (previsao == 0):
+        return redirect('/negativo')
+    elif (previsao == 1):
+        return redirect("/neutro")
+    elif (previsao == 2):
+        return redirect("/positivo")
 
 
 @app.route('/positivo')
