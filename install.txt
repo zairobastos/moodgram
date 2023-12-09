@@ -1,1 +1,10 @@
-pandas: 
+pandas: pip install pandas
+sklearn: pip install -U scikit-learn
+streamlit: pip install streamlit 
+seaborn: pip install seaborn
+nltk: pip install -U nltk
+re: pip install re
+wordcloud: pip install wordcloud
+plotly: pip install plotly
+
+

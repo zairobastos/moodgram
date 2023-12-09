@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly.graph_objects as go
 import plotly.express as px
-import seaborn as sns
 
 
 st.set_page_config(page_title='Dashboard MOODGRAM - Análise de Frequência',
@@ -11,7 +9,6 @@ st.set_page_config(page_title='Dashboard MOODGRAM - Análise de Frequência',
 st.title('Dashboard MOODGRAM - Análise de Frequência')
 st.markdown('#### 4. Análise de Frequência')
 df_sentimentos = pd.read_csv("./data/data.csv", sep=",", encoding="utf-8")
-df_sentimentos
 
 st.markdown('##### 4.1. Frequência de Sentimentos')
 st.bar_chart(df_sentimentos['Sentiment'].value_counts())

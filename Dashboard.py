@@ -1,21 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-import plotly.graph_objects as go
-import plotly.express as px
 import seaborn as sns
-import seaborn as sns
-
-import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-from nltk.stem import WordNetLemmatizer
-from wordcloud import WordCloud  # wordcloud
-import re
-
-nltk.download('stopwords')
-nltk.download('punkt')
-nltk.download('wordnet')
 
 st.set_page_config(page_title='Dashboard MOODGRAM',
                    page_icon='./static/img/favicon/favicon.ico', layout='wide', initial_sidebar_state='auto')
