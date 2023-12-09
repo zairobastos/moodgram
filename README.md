@@ -26,7 +26,7 @@ Dito isso, o objetivo central consiste em desenvolver classificador de sentiment
 
 ## 📃 Documentos do Projeto
 
-- Clique no link para acessar: [🔗 Documento de Especificação do Projeto](https://drive.google.com/file/d/1h0Lq8PiBgFHSuV0L9GA-sJgajzblYI97/preview)
+- Clique no link para acessar: [🔗 Documento de Especificação do Projeto](https://drive.google.com/file/d/1uPu0DEXv1SSuexnYULdGO8F59WrfHQWL/preview)
 
 ## 🖌️ Protótipos de Interface
 
