@@ -52,11 +52,68 @@ Dito isso, o objetivo central consiste em desenvolver classificador de sentiment
 * [X] [Escrever a Introdução da Documentação](https://github.com/zairobastos/moodgram/issues/2)
 
 ## 🛠 Tecnologias
+Naquela seção, trouxemos como instalar cada biblioteca separadamente:
+### Pandas
+O Pandas é uma biblioteca de análise de dados que oferece estruturas de dados flexíveis e eficientes, tornando a manipulação e análise de dados mais fácil. É frequentemente usado em conjunto com o NumPy.
 
-- Figma - Utilizado na prototipação das telas
-- GIT - Versionamento do código
-- Pandas - Utilizado no processo de manipulação dos dados
-- Numpy - Utilizado para operações matemáticas
+#### Instalação
+```bash
+pip install pandas
+```
+
+### Scikit-Learn (sklearn)
+Scikit-Learn é uma biblioteca de aprendizado de máquina em Python. Ela fornece ferramentas simples e eficientes para análise preditiva de dados, incluindo classificação, regressão, clustering, entre outras tarefas.
+
+#### Instalação
+```bash
+pip install -U scikit-learn
+```
+
+### Streamlit
+Streamlit é uma biblioteca para criar aplicativos da web interativos com apenas algumas linhas de código. É frequentemente utilizado para prototipagem rápida e visualização de dados.
+
+#### Instalação
+```bash
+pip install streamlit
+```
+
+### Seaborn
+Seaborn é uma biblioteca de visualização de dados baseada no Matplotlib. Ele fornece uma interface de alto nível para criar gráficos estatísticos atraentes e informativos.
+
+#### Instalação
+```bash
+pip install seaborn
+```
+
+### NLTK (Natural Language Toolkit)
+NLTK é uma biblioteca para processamento de linguagem natural. Ele contém ferramentas para trabalhar com textos, incluindo tokenização, stemming, lematização, análise gramatical, entre outras funcionalidades.
+
+#### Instalação
+```bash
+pip install -U nltk
+```
+
+### Regular Expressions (re)
+O módulo `re` é parte da biblioteca padrão do Python e é usado para trabalhar com expressões regulares, o que é útil para encontrar padrões em strings.
+
+#### Instalação
+Não é necessário instalar separadamente, pois faz parte da biblioteca padrão.
+
+### Wordcloud
+A biblioteca Wordcloud é usada para gerar nuvens de palavras a partir de um texto, onde o tamanho de cada palavra representa sua frequência no texto.
+
+#### Instalação
+```bash
+pip install wordcloud
+```
+
+#### Plotly
+Plotly é uma biblioteca para criação de gráficos interativos. Ele suporta uma variedade de tipos de gráficos e é útil para criar visualizações dinâmicas e atraentes.
+
+#### Instalação
+```bash
+pip install plotly
+```
 
 ## 👨‍💻👩‍💻 Desenvolvedores
 
