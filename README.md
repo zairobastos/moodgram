@@ -22,9 +22,7 @@ Análise de sentimentos é o processo de analisar um texto digital para determin
 
 Dito isso, o objetivo central consiste em desenvolver classificador de sentimentos de notícias eficiente, preciso e escalável. O modelo criado pelos times deve ser capaz de analisar o texto de uma notícia e determinar se o sentimento geral associado a ela é positivo, negativo ou neutro. A partir dessa classificação, uma empresa do segmento financeiro poderá tomar decisões informadas e estratégicas com base em dados confiáveis sobre a percepção pública de notícias relevantes.
 
-<p align="center">
-  <img src=".github/cover (2).png" alt="LOGO" width="1000"/>
-</p>
+![img](.github/ezgif.com-gif-maker.gif)
 
 ## 📃 Documentos do Projeto
 
@@ -46,7 +44,7 @@ Dito isso, o objetivo central consiste em desenvolver classificador de sentiment
 * [X] [Finalizar a API de conexão com a aplicação](https://github.com/zairobastos/moodgram/issues/16)
 * [X] [Escrever o Pré-processamento dos Dados da Documentação](https://github.com/zairobastos/moodgram/issues/15)
 * [X] [Escrever a Descrição dos Dados da Documentação](https://github.com/zairobastos/moodgram/issues/14)
-* [ ] [Terceira Reunião - Teste Pré-Apresentação](https://github.com/zairobastos/moodgram/issues/12)
+* [X] [Terceira Reunião - Teste Pré-Apresentação](https://github.com/zairobastos/moodgram/issues/12)
 * [X] [Documentação no Repositório GitHub](https://github.com/zairobastos/moodgram/issues/8)
 * [X] [Validação dos Resultados e Performance do Algoritmo](https://github.com/zairobastos/moodgram/issues/7)
 * [X] [Análise de Importância de Variáveis e Interpretabilidade](https://github.com/zairobastos/moodgram/issues/6)
