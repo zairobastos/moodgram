@@ -115,6 +115,42 @@ Plotly é uma biblioteca para criação de gráficos interativos. Ele suporta um
 pip install plotly
 ```
 
+
+## 💾 Executando o Projeto
+
+Siga os passos abaixo para executar o projeto:
+
+1. **Clone o Repositório:**
+   - Certifique-se de ter o Git instalado no seu sistema.
+   - Execute o seguinte comando para clonar o repositório:
+     ```bash
+     git clone https://github.com/zairobastos/moodgram.git
+     ```
+
+2. **Instale as Bibliotecas Necessárias:**
+   - No terminal, execute o comando a seguir para instalar todas as bibliotecas listadas no arquivo `requirements.txt`:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+3. **Configurando e Rodando o Moodgram:**
+   - Antes de executar o Moodgram, crie e ative um ambiente virtual (virtualenv). [Veja aqui como instalar o virtualenv](https://flask.palletsprojects.com/en/3.0.x/installation/#).
+   - Ative o ambiente virtual usando os comandos apropriados. [Documentação do virtualenv](https://flask.palletsprojects.com/en/3.0.x/installation/#).
+   - Para iniciar o Moodgram, execute o seguinte comando no terminal:
+     ```bash
+     python main.py
+     ```
+
+4. **Executando o Dashboard:**
+   - Para rodar o dashboard, utilize o seguinte comando no terminal:
+     ```bash
+     streamlit run Dashboard.py
+     ```
+
+Certifique-se de seguir esses passos em ordem para garantir uma execução adequada do projeto. Boa exploração! 🚀
+
+
+
 ## 👨‍💻👩‍💻 Desenvolvedores
 
 <table align="center">
