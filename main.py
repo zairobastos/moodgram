@@ -1,12 +1,8 @@
-from modelo import Modelo
-from sklearn import svm
-from flask import Flask, render_template, request, jsonify, redirect, url_for
+from analise import modelo, clean_text, converte_string
+from flask import Flask, render_template, request, redirect
 
 app = Flask(__name__)
-mod = None
-analise = None
-predic = None
-clf = svm.SVC(kernel='linear', gamma='scale')
+predictor = None
 
 
 @app.route('/')
@@ -26,35 +22,22 @@ def submit():
 
 @app.route('/predict', methods=['POST', 'GET'])
 def predict():
-
     dados = request.args.get('texto')
-    dado = [' '.join(mod.clean_text(str(dados)))]
-    previsao = int(predic.predict(mod.converte_string(dado)))
-    if (previsao == 0):
-        return redirect('/negativo')
-    elif (previsao == 1):
-        return redirect("/neutro")
-    elif (previsao == 2):
-        return redirect("/positivo")
+    dado = [' '.join(clean_text(str(dados)))]
+    previsao = int(predictor.predict(converte_string(dado)))
+    return redirect("/resultado/" + str(previsao))
 
 
-@app.route('/positivo')
-def positivo():
-    return render_template("positivo.html")
-
-
-@app.route('/neutro')
-def neutro():
-    return render_template("neutro.html")
-
-
-@app.route('/negativo')
-def negativo():
-    return render_template("negativo.html")
+@app.route('/resultado/<int:previsao>')
+def resultado(previsao):
+    if previsao == 0:
+        return render_template("negativo.html")
+    elif previsao == 1:
+        return render_template("neutro.html")
+    elif previsao == 2:
+        return render_template("positivo.html")
 
 
 if __name__ == '__main__':
-    mod = Modelo()
-    analise = mod.analise()
-    predic = mod.SVM(analise)
+    predictor, vectorizer = modelo()
     app.run(debug=True)
